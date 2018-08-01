@@ -40,6 +40,10 @@ my_tuple_a=(1, 2, 3)
 my_tuple_b=('a', 'b', 'c')
 print ("+ operation in tuple:", my_tuple_a + my_tuple_b)
 
+<<<<<<< HEAD
+=======
+my_tuple = ('p','r','o','g','r','a','m','i','z')
+>>>>>>> acaedef48f436cf3f1b7ce0fb34c5ce4407c08bb
 del my_tuple
 
 #Defined methods in tuple
