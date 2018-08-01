@@ -38,5 +38,5 @@ print(colourList.pop(0))
 del colourList #-->remove entire item from  list
 #colourList.clear() #--> clear entire list
 
-
-
+#Some built in fn in list
+#all(), any(), enumerate(), len(), max(), min(), list(), sorted()
