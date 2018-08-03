@@ -12,6 +12,10 @@ if a == b:
 else:
     print("%s is not equal to %s!!!:D" %(a,b) )
 
+#range function with if
+for i in range(0,51,5):
+    print ("Multiple of 5 till 50:", i)
+
 #if...elif...else Statement
 a=-1
 if a == 0:
