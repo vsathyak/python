@@ -37,3 +37,11 @@ my_dict.clear() #Delete all item in dict
 my_dict = {1:1, 2:4, 3:9, 4:16 }
 for i in my_dict:
     print(my_dict[i])
+#Alternative Ways to Create a dict Using Keyword Arguments
+weights = dict(kevin=160, bob=240, kayla=135)
+print(weights)
+#output-{'kevin': 160, 'bob': 240, 'kayla': 135}
+
+colors = dict([('kevin', 'blue'), ('bob', 'green'), ('kayla', 'red')])
+print(colors)
+#output-{'kevin': 'blue', 'bob': 'green', 'kayla': 'red'}
